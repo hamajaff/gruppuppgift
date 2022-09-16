@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+p {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+.titel {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header {
+  padding: 10px;
+  background-color: rgba(255, 217, 0, 0.532);
+}
+.minbild {
+  display: block;
+  width: auto;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(249, 215, 21, 0.45);
+}
+
+aside {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+section {
+  border-top: 1px dotted rgb(240, 223, 223);
+  width: 100%;
+  height: auto;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  padding: 5px;
+}
+
+a {
+  color: rgb(2, 29, 70);
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#knapp {
+  width: 100%;
+  resize: vertical;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    height: 100vh;
+    background-image: url(/Gruppuppgift/bilder/bakgrundsbil3.jpg);
+  }
+
+  ul {
+    list-style-type: circle;
+    flex-direction: column;
+  }
+  .mainone {
+    width: 20%;
+  }
+  .maintwo {
+    width: 40%;
+  }
+  .mainthree {
+    border-style: none;
+    width: 40%;
+  }
+  .minbild {
+    display: block;
+    width: auto;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 15px;
+  }
+  p {
+    padding: 10px;
+  }
+  ul li:last-child {
+    list-style-type: none;
+  }
+}
